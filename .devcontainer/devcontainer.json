@@ -1,0 +1,27 @@
+{
+    "name": "spinalhdl-dev",
+    "image": "01xz/spinalhdl-dev:latest",
+    "settings": {},
+    "extensions": [
+        "scala-lang.scala",
+        "scala-lang.scala-snippets",
+        "scalameta.metals",
+        "mshr-h.VerilogHDL"
+    ],
+    "mounts": [],
+    "runArgs": [
+        "-h",
+        "spinalhdl-dev",
+        "--name",
+        "spinalhdl-dev",
+        "-v",
+        "/etc/timezone:/etc/timezone:ro",
+        "-v",
+        "/etc/localtime:/etc/localtime:ro"
+    ],
+    "remoteUser": "vscode",
+    "containerEnv": {
+        "HTTP_PROXY": "192.168.6.109:20171",
+        "HTTPS_PROXY": "192.168.6.109:20171"
+    }
+}

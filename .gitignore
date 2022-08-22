@@ -1,0 +1,11 @@
+.bloop
+.metals
+.vscode
+out
+tmp
+
+# sim
+simWorkspace
+
+# rtl
+rtl
